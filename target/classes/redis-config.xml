@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<servers>
+    <config stage="development">
+        <redis>
+            <server shard="1" host="127.0.0.1" port="6379" timeout="2500"></server>
+        </redis>
+    </config>
+
+    <config stage="beta">
+        <redis>
+            <server shard="1" host="127.0.0.1" port="6379" timeout="2500"></server>
+        </redis>
+    </config>
+</servers>
