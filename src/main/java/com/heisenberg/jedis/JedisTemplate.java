@@ -10,6 +10,8 @@ public class JedisTemplate<T> {
 
     private static Jedis jedis = new JedisPoolStore().getJedis();
 
+    public JedisTemplate(){};
+
     public T execute(RedisCallable<T> redisCallable){
 
         try {
