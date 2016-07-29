@@ -23,6 +23,5 @@ public class JedisTemplate<T> {
             jedis.close();
         }
 
-
     }
 }
